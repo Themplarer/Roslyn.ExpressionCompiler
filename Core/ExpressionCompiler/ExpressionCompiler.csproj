@@ -5,11 +5,9 @@
   <PropertyGroup>
     <AssemblyName>Microsoft.CodeAnalysis.ExpressionEvaluator</AssemblyName>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>..\..\..\..\..\dnSpy.snk</AssemblyOriginatorKeyFile>
     <MakeEverythingPublicAssemblies>Microsoft.CodeAnalysis</MakeEverythingPublicAssemblies>
     <MakeEverythingPublicIVTString>$(AssemblyName)</MakeEverythingPublicIVTString>
-    <DefineConstants>$(DefineConstants);EXPRESSIONCOMPILER</DefineConstants>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
